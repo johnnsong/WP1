@@ -1,0 +1,23 @@
+@media (min-width:1000px){
+    
+    .main-menu{
+        display: inline-block;
+        float: right;
+    }
+    header button{
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    nav li{
+        margin: 10px;
+    }
+    .data-box{
+        width: 30%;
+    }
+    .footer-menu1{
+        width: 33%;
+    }
+}

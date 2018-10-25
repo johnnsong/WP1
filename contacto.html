@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Info Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="desktop.css">
+</head>
+<body>
+     <header id="header" class="">
+            <img class="logo" src="images/logo.png" alt="">
+            <button type="" class="toggle" id="boton">
+                    <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-menu">
+                <ul> 
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="subi-tu-i-go.html">Subi tu <span style="font-family:Lobster;">i-go!</span></a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                 </ul>
+            </nav>
+    </header>
+    <main>
+        <section class="slider slidercontacto">
+            <h1>Dejanos<br> tu consulta!</h1>
+        </section>
+        <section class="contacto">
+            <div class="top"></div>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Nombre</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+              
+                  <label for="lname">Apellido</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Apellido..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Mensaje</label>
+                  <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Enviar">
+              
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <article class="footer-menu1">
+                <ul>
+                    <li><a href="">Restaurants</a></li>
+                    <li><a href="">Bares</a></li>
+                    <li><a href="">Belleza</a></li>
+                </ul>
+            </article>
+            <article class="footer-menu1">
+                <ul>
+                    <li><a href="">Entretenimiento</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </article>
+            <article class="footer-menu1">
+                <img class="logo" src="images/logoblanco.png" alt="">
+            </article>
+        </section>
+        <section class="copyright"></section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
